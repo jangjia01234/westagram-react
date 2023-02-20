@@ -1,50 +1,35 @@
-// @mixin center {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-// .body {
-//   @include center;
-// }
+body {
+  background-color: white;
+}
 
-// a {
-//   color: black;
-// }
+strong {
+  font-weight: 700;
+}
 
-// @mixin flexSort($justify, $alignItems) {
-//   display: flex;
-//   justify-content: $justify;
-//   align-items: $alignItems;
-// }
+img {
+  width: 100px;
+  height: 100px;
+}
 
-// @include flexSort("center", "center");
+.body {
+  display: flex;
+  margin: 0 auto;
+}
 
-// i,
-// img,
-// button {
-//   cursor: pointer;
-// }
+a {
+  color: black;
+  text-decoration: none;
+}
 
-// input {
-//   width: 180px;
-//   height: 20px;
-//   padding-left: 10px;
-//   background-color: #fafafa;
-//   border: none;
-//   border-radius: 4px;
-// }
+i,
+img,
+button {
+  cursor: pointer;
+}
 
-// input::placeholder {
-//   color: #bababa;
-//   text-align: center;
-// }
-
-// input:focus {
-//   outline: none;
-// }
-
-// .fa-regular.icon-mini {
-//   font-size: 10px;
-//   color: gray;
-// }
+.fa-regular.icon-mini {
+  font-size: 10px;
+  color: gray;
+}

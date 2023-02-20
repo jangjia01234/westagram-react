@@ -1,17 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import { useEffect } from "react";
+
 import "../../styles/reset.scss";
 import "../../styles/common.scss";
 import "../Aside/Aside.scss";
-import profileImg from "../../assets/Main/profile.png";
+
+import ProfileImg from "../../assets/Main/profile.png";
+import MyImg from "../../assets/Main/me.png";
+import CatJumpImg from "../../assets/Main/profile3.png";
+import CatPixelImg from "../../assets/Main/cat.png";
+import FigmaImg from "../../assets/Main/figma.png";
+import ProfileIllustImg from "../../assets/Main/profile4.png";
 
 const Aside = () => {
   return (
     <div className="Aside">
       <div className="profile-box">
         <div className="profile-toggle-img">
-          <img alt="profile" src={profileImg} />
+          <img alt="profile" src={ProfileImg} />
         </div>
         <div className="profile-toggle-box">
           <div className="profile-toggle-box-up">
@@ -38,7 +45,7 @@ const Aside = () => {
         <div className="recommend-bottom">
           <div className="recommend-individual">
             <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={profileImg} />
+              <img alt="recommend-profile" src={MyImg} />
               <div className="recommend-individual-middle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>
@@ -50,7 +57,7 @@ const Aside = () => {
           </div>
           <div className="recommend-individual">
             <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={profileImg} />
+              <img alt="recommend-profile" src={ProfileIllustImg} />
               <div className="recommend-individual-middle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>
@@ -62,7 +69,7 @@ const Aside = () => {
           </div>
           <div className="recommend-individual">
             <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={profileImg} />
+              <img alt="recommend-profile" src={CatPixelImg} />
               <div className="recommend-individual-middle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>
@@ -74,7 +81,7 @@ const Aside = () => {
           </div>
           <div className="recommend-individual">
             <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={profileImg} />
+              <img alt="recommend-profile" src={FigmaImg} />
               <div className="recommend-individual-middle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>
@@ -86,7 +93,7 @@ const Aside = () => {
           </div>
           <div className="recommend-individual">
             <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={profileImg} />
+              <img alt="recommend-profile" src={CatJumpImg} />
               <div className="recommend-individual-middle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>
@@ -98,7 +105,7 @@ const Aside = () => {
           </div>
           <div className="recommend-individual">
             <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={profileImg} />
+              <img alt="recommend-profile" src={ProfileImg} />
               <div className="recommend-individual-middle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>

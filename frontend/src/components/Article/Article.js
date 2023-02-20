@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import "../../styles/reset.scss";
 import "../../styles/common.scss";
 import "../Article/Article.scss";
 import "../../pages/Test.css";
-import ProfileImg from "../../assets/Main/profile.png";
+
 import SeaImg from "../../assets/Main/sea.png";
+import FeedProfileImg from "../../assets/Main/profile2.png";
 
 const Article = () => {
   return (
@@ -13,7 +15,7 @@ const Article = () => {
       <article>
         <div className="feeds-upside">
           <div className="feeds-upside-left">
-            <img alt="profile" src={ProfileImg} />
+            <img alt="profile" src={FeedProfileImg} />
             <Link className="feeds-nickname" to="">
               photo_stagram
             </Link>
@@ -50,9 +52,9 @@ const Article = () => {
             <div className="feeds-old-comment">
               <div>
                 <Link to="">
-                  <strong>fullmoon_e </strong>
+                  <strong>fullmoon_e </strong>윤슬이 예쁘네요!
                 </Link>
-                윤슬이 예쁘네요!
+
                 <i class="fa-regular fa-heart icon-mini"></i>
               </div>
               <div className="feeds-new-comment"></div>

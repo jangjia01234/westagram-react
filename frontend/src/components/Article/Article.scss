@@ -104,6 +104,14 @@ article img {
   justify-content: space-between;
   align-items: center;
   margin-top: 5px;
+  width: 100%;
+}
+
+.feeds-old-comment div:first-child {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .feeds-old-comment-more {

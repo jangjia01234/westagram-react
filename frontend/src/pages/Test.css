@@ -1,10 +1,10 @@
 /* feed.css */
 
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap"); */
 
 /* 공통 스타일 */
 
-body {
+/* body {
   background-color: white;
 }
 
@@ -32,7 +32,7 @@ button {
 .fa-regular.icon-mini {
   font-size: 10px;
   color: gray;
-}
+} */
 
 /* input {
   width: 180px;
