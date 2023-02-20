@@ -1,8 +1,16 @@
-@mixin center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// @mixin center {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .body {
+//   @include center;
+// }
+
+// a {
+//   color: black;
+// }
 
 // @mixin flexSort($justify, $alignItems) {
 //   display: flex;
@@ -11,14 +19,6 @@
 // }
 
 // @include flexSort("center", "center");
-
-.body {
-  @include center;
-}
-
-a {
-  color: black;
-}
 
 // i,
 // img,

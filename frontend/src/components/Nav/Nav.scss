@@ -1,42 +1,42 @@
-@import "../../styles/reset.scss";
-@import "../../styles/common.scss";
+// @import "../../styles/reset.scss";
+// @import "../../styles/common.scss";
 
-.nav {
-  position: fixed;
-  left: 0;
-  width: 100px;
-  height: 100vh;
-  padding: 40px 120px 40px 25px;
-  border-right: 1px solid #e6e6e6;
-  i {
-    font-size: 24px;
-  }
-  .nav-profile {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-  }
-  .logo-westagram {
-    position: fixed;
-    top: 40px;
-    font-size: 25px;
-    font-family: "Lobster", cursive;
-  }
-  .nav-middle {
-    margin-top: 140px;
-    .nav-middle-menu {
-      display: flex;
-      align-items: center;
-      margin: 30px 0;
-      gap: 20px;
-    }
-  }
-  .nav-bottom {
-    position: fixed;
-    bottom: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-  }
-}
+// .nav {
+//   position: fixed;
+//   left: 0;
+//   width: 100px;
+//   height: 100vh;
+//   padding: 40px 120px 40px 25px;
+//   border-right: 1px solid #e6e6e6;
+//   i {
+//     font-size: 24px;
+//   }
+//   .nav-profile {
+//     width: 25px;
+//     height: 25px;
+//     border-radius: 50%;
+//   }
+//   .logo-westagram {
+//     position: fixed;
+//     top: 40px;
+//     font-size: 25px;
+//     font-family: "Lobster", cursive;
+//   }
+//   .nav-middle {
+//     margin-top: 140px;
+//     .nav-middle-menu {
+//       display: flex;
+//       align-items: center;
+//       margin: 30px 0;
+//       gap: 20px;
+//     }
+//   }
+//   .nav-bottom {
+//     position: fixed;
+//     bottom: 40px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     gap: 20px;
+//   }
+// }

@@ -1,0 +1,107 @@
+// @import "../../styles/reset.scss";
+// @import "../../styles/common.scss";
+
+// article {
+//   margin-bottom: 20px;
+//   border: none;
+//   border-radius: 2px;
+//   border-bottom: 1px solid #e6e6e6;
+//   font-size: 15px;
+//   .feeds-upside {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 12px 0;
+//     .feeds-upside-left {
+//       display: flex;
+//       align-items: center;
+//       img {
+//         width: 30px;
+//         height: 30px;
+//         margin-right: 5px;
+//         border: 1px solid #bababa;
+//         border-radius: 50%;
+//       }
+//     }
+//     .feeds-nickname {
+//       margin-right: 10px;
+//       font-size: 16px;
+//       font-weight: 700;
+//     }
+//     .feeds-content-time {
+//       color: #bababa;
+//       font-size: 14px;
+//     }
+//   }
+//   .feeds-photo {
+//     width: 100%;
+//     height: 100%;
+//     border-radius: 4px;
+//   }
+//   .feeds-bottom {
+//     padding: 10px 10px 0 10px;
+//     font-size: 14px;
+//   }
+//   .feeds-icons {
+//     display: flex;
+//     justify-content: space-between;
+//     .icon-chat {
+//       margin: 0 5px;
+//     }
+//     .feeds-like {
+//       margin-top: 10px;
+//       font-size: 14px;
+//       margin-bottom: 10px;
+//     }
+//   }
+
+//   .feeds-content-box a:nth-child(2) {
+//     color: gray;
+//     font-weight: normal;
+//   }
+
+//   .feeds-old-comment {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     margin-top: 5px;
+//     .feeds-old-comment-more {
+//       color: gray;
+//       font-size: 14px;
+//       font-weight: 400;
+//       margin-top: 10px;
+//     }
+//     .heart-icon-mini {
+//       width: 10px;
+//       height: 10px;
+//     }
+//   }
+//   .feeds-new-comment {
+//     display: flex;
+//     flex-direction: column;
+//   }
+//   .feeds-comment-input-box {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     height: 40px;
+//     padding: 0 10px 10px 0;
+//     color: #bababa;
+//     font-size: 14px;
+//     .feeds-comment-input {
+//       width: 80%;
+//       background-color: white;
+//       border: none;
+//       font-size: 14px;
+//     }
+//     .feeds-comment-input::placeholder {
+//       color: gray;
+//       text-align: left;
+//     }
+//   }
+//   .feeds-comment-upload {
+//     color: #5395e9;
+//     background-color: transparent;
+//     border: none;
+//   }
+// }

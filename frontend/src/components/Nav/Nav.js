@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import "../../styles/reset.scss";
 import "../../styles/common.scss";
 import "../Nav/Nav.scss";
-import profileImg from "../../assets/Main/profile.png";
+import "../../pages/Test.css";
+import ProfileImg from "../../assets/Main/profile.png";
 
 const Nav = () => {
   return (
@@ -37,15 +38,15 @@ const Nav = () => {
                   <span>메세지</span>
                 </Link>
                 <Link className="nav-middle-menu update" to={""}>
-                  <i class="fa-regular fa-paper-plane"></i>
+                  <i class="fa-regular fa-heart"></i>
                   <span>알림</span>
                 </Link>
                 <Link className="nav-middle-menu update" to={""}>
-                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-regular fa-square-plus"></i>
                   <span>만들기</span>
                 </Link>
                 <Link className="nav-middle-menu profile" to={""}>
-                  <img className="nav-profile" src={profileImg} alt="profile" />
+                  <img className="nav-profile" src={ProfileImg} alt="profile" />
                   <span>프로필</span>
                 </Link>
                 <Link className="nav-middle-menu logout" to={""}>
