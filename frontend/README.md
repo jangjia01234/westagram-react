@@ -1,1 +1,1 @@
-# Westagram-React-Practice
+# Westagram-React
