@@ -3,3 +3,41 @@
   justify-content: center;
   align-items: center;
 }
+
+.body {
+  @include center;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+i,
+img,
+button {
+  cursor: pointer;
+}
+
+input {
+  width: 180px;
+  height: 20px;
+  padding-left: 10px;
+  background-color: #fafafa;
+  border: none;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #bababa;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.fa-regular.icon-mini {
+  font-size: 10px;
+  color: gray;
+}

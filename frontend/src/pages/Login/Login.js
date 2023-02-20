@@ -1,11 +1,13 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import "../../styles/reset.scss";
 import "../../styles/common.scss";
 import "../Login/Login.scss";
-import { Link } from "react-router-dom";
-import { useEffect } from "react";
 
 const Login = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     let loginIdInput = document.querySelector(".id-input");
     let loginPwInput = document.querySelector(".pw-input");
@@ -28,7 +30,7 @@ const Login = () => {
 
     function checkLetter() {
       loginIdInput.value.includes("@") && loginPwInput.value.length >= 5
-        ? (window.location.href = "./feed.html")
+        ? navigate("/main")
         : alert("아이디 혹은 패스워드를 확인해주세요.");
     }
 
@@ -63,7 +65,6 @@ const Login = () => {
             <h6>비밀번호를 잊으셨나요?</h6>
           </Link>
         </div>
-        <script src="./login.js"></script>
       </div>
     </div>
   );

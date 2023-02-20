@@ -1,0 +1,159 @@
+@media (max-width: 1200px) {
+  aside {
+    display: none;
+  }
+}
+
+aside {
+  width: 340px;
+  background-color: white;
+  position: fixed;
+  right: 20px;
+  top: 100px;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 700;
+  img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+}
+
+.profile-toggle-img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 1px solid #bababa;
+}
+
+.profile-box-nickname {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  color: gray;
+  font-size: 12px;
+  font-weight: 600;
+  a {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+/* 그라데이션 적용 여부 확인 필요 */
+
+.recommend-box {
+  height: 250px;
+  margin: 25px 10px 38px 10px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  overflow: scroll;
+}
+
+.recommend-box::-webkit-scrollbar {
+  display: none;
+}
+
+.recommend-upside {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  color: gray;
+  background-color: white;
+}
+
+.recommend-bottom {
+  margin-top: 30px;
+  img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+  }
+}
+
+.recommend-individual {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+
+  .recommend-individual-left {
+    display: flex;
+    img {
+      margin-right: 10px;
+    }
+  }
+
+  .recommend-individual-middle {
+    div:nth-child(1) {
+      font-size: 14px;
+    }
+    div:nth-child(2) {
+      color: gray;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+
+  .recommend-individual-right {
+    color: #5395e9;
+  }
+}
+
+footer {
+  color: #bababa;
+  font-size: 12px;
+  font-weight: 500;
+  div:first-child {
+    margin: 20px 0;
+  }
+}
+
+/* toggle profile box */
+
+.profile-toggle-box {
+  display: none;
+}
+
+.display-block {
+  display: block;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-top: 240px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 40px 36px 80px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.profile-toggle-box-up {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  gap: 20px;
+  i,
+  span {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+.profile-toggle-box-down {
+  padding-top: 10px;
+  border-top: 1px solid #e6e6e6;
+  font-size: 15px;
+}
