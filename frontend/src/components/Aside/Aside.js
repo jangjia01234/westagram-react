@@ -1,29 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useEffect } from "react";
+// import { Link } from "react-router-dom";
+// import { useEffect } from "react";
 import "../../styles/reset.scss";
 import "../../styles/common.scss";
 import "../Aside/Aside.scss";
-import ProfileImg from "../../assets/Main/profile.png";
+import profileImg from "../../assets/Main/profile.png";
 
 const Aside = () => {
-  useEffect(() => {
-    // 프로필 박스 토글
-    // const profileImg = document.querySelector(".profile-toggle-img");
-    // const profileImgBox = document.querySelector(".profile-toggle-box");
-    // profileImg.addEventListener("click", () => {
-    //   profileImgBox.classList.toggle("display-block");
-    // });
-    // profileImgBox.addEventListener("click", (e) => {
-    //   e.target
-    //     ? profileImgBox.classList.remove("display-block")
-    //     : profileImgBox.classList.add("display-block");
-    // });
-  });
-
   return (
     <div className="Aside">
-      <aside>
+      <div className="profile-box">
+        <div className="profile-toggle-img">
+          <img alt="profile" src={profileImg} />
+        </div>
+      </div>
+
+      {/* <aside>
         <div className="profile-box">
           <div className="profile-toggle-img">
             <ProfileImg />
@@ -134,7 +126,7 @@ const Aside = () => {
           </p>
           <p>© 2023 INSTAGRAM FROM META</p>
         </footer>
-      </aside>
+      </aside> */}
     </div>
   );
 };
