@@ -29,7 +29,12 @@ button {
   cursor: pointer;
 }
 
-input {
+.fa-regular.icon-mini {
+  font-size: 10px;
+  color: gray;
+}
+
+/* input {
   width: 180px;
   height: 20px;
   padding-left: 10px;
@@ -45,15 +50,10 @@ input::placeholder {
 
 input:focus {
   outline: none;
-}
-
-.fa-regular.icon-mini {
-  font-size: 10px;
-  color: gray;
-}
+} */
 
 /* nav 레이아웃 */
-
+/* 
 .nav {
   position: fixed;
   top: 0;
@@ -103,18 +103,16 @@ input:focus {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-}
+} */
 
 /* 중앙 레이아웃 */
 
-.main {
+/* .main {
   display: flex;
   position: absolute;
   top: 20px;
   left: 450px;
   padding: 0;
-  /* width: 1000px; */
-  /* margin: 50px 500px; */
 }
 
 .main::-webkit-scrollbar-x {
@@ -126,10 +124,10 @@ header {
   margin-bottom: 20px;
   gap: 15px;
   overflow: scroll;
-}
+} */
 
 /* 스토리 그라데이션 */
-
+/* 
 header img {
   width: 60px;
   height: 60px;
@@ -154,14 +152,14 @@ header div {
 
 header::-webkit-scrollbar {
   display: none;
-}
+} */
 
 /* 중앙 좌측 */
 
-.main-left {
+/* .main-left {
   width: 480px;
-}
-
+} */
+/* 
 article {
   margin-bottom: 20px;
   border: none;
@@ -290,10 +288,10 @@ article img {
   color: #5395e9;
   background-color: transparent;
   border: none;
-}
+} */
 
 /* 중앙 우측 */
-
+/* 
 .Aside {
   position: fixed;
   top: 25px;
@@ -424,7 +422,7 @@ footer {
 
 footer div:first-child {
   margin: 20px 0;
-}
+} */
 
 /* new / delete comment */
 
