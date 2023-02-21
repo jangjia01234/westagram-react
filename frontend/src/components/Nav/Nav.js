@@ -60,13 +60,8 @@ const Nav = () => {
                     />
                     <span>프로필</span>
                   </Link>
-                  <Link className="nav-middle-menu logout" to={""}>
-                    <i
-                      class="fa-solid fa-arrow-right-from-bracket"
-                      onClick={() => {
-                        window.location.href = "/";
-                      }}
-                    ></i>
+                  <Link className="nav-middle-menu logout" to="/">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
                     <span>로그아웃</span>
                   </Link>
                 </div>

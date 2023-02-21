@@ -1,43 +1,47 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import "../../styles/reset.scss";
 import "../../styles/common.scss";
 import "../Login/Login.scss";
 
 const Login = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  useEffect(() => {
-    let loginIdInput = document.querySelector(".id-input");
-    let loginPwInput = document.querySelector(".pw-input");
-    let loginBtn = document.querySelector(".login-btn");
+  // const goToMain = () => {
+  //   navigate("/main");
+  // };
 
-    // 키 이벤트 감지 -> 버튼 활성화
+  // useEffect(() => {
+  //   let loginIdInput = document.querySelector(".id-input");
+  //   let loginPwInput = document.querySelector(".pw-input");
+  //   let loginBtn = document.querySelector(".login-btn");
 
-    function checkInput() {
-      if (loginIdInput.value && loginPwInput.value) {
-        loginBtn.style.backgroundColor = "#5395e9";
-        loginBtn.style.cursor = "pointer";
-        loginBtn.disabled = false;
-      } else {
-        loginBtn.style.backgroundColor = "#c5e1fa";
-        loginBtn.disabled = true;
-      }
-    }
+  // 키 이벤트 감지 -> 버튼 활성화
 
-    // ID, PW validation
+  // function checkInput() {
+  //   if (loginIdInput.value && loginPwInput.value) {
+  //     loginBtn.style.backgroundColor = "#5395e9";
+  //     loginBtn.style.cursor = "pointer";
+  //     loginBtn.disabled = false;
+  //   } else {
+  //     loginBtn.style.backgroundColor = "#c5e1fa";
+  //     loginBtn.disabled = true;
+  //   }
+  // }
 
-    function checkLetter() {
-      loginIdInput.value.includes("@") && loginPwInput.value.length >= 5
-        ? navigate("/main")
-        : alert("아이디 혹은 패스워드를 확인해주세요.");
-    }
+  // ID, PW validation
 
-    loginIdInput.addEventListener("keydown", checkInput);
-    loginPwInput.addEventListener("keydown", checkInput);
-    loginBtn.addEventListener("click", checkLetter);
-  });
+  //   function checkLetter() {
+  //     loginIdInput.value.includes("@") && loginPwInput.value.length >= 5
+  //       ? navigate("/main")
+  //       : alert("아이디 혹은 패스워드를 확인해주세요.");
+  //   }
+
+  //   loginIdInput.addEventListener("keydown", checkInput);
+  //   loginPwInput.addEventListener("keydown", checkInput);
+  //   loginBtn.addEventListener("click", checkLetter);
+  // });
 
   return (
     <div className="Login">
@@ -57,16 +61,14 @@ const Login = () => {
                 placeholder="비밀번호"
               />
             </div>
-            <div className="login-btn-box">
-              <button
-                className="login-btn"
-                onClick={() => {
-                  window.location.href = "/main";
-                }}
-              >
-                로그인
-              </button>
-            </div>
+            <Link to="/main">
+              <div className="login-btn-box">
+                <button className="login-btn">로그인</button>
+              </div>
+            </Link>
+            {/* <button className="login-btn-box" onClick={goToMain}>
+              로그인
+            </button> */}
           </div>
           <Link to="">
             <h6>비밀번호를 잊으셨나요?</h6>
