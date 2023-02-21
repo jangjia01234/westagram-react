@@ -58,10 +58,17 @@ const Login = () => {
               />
             </div>
             <div className="login-btn-box">
-              <button className="login-btn">로그인</button>
+              <button
+                className="login-btn"
+                onClick={() => {
+                  window.location.href = "/main";
+                }}
+              >
+                로그인
+              </button>
             </div>
           </div>
-          <Link to="#">
+          <Link to="">
             <h6>비밀번호를 잊으셨나요?</h6>
           </Link>
         </div>
