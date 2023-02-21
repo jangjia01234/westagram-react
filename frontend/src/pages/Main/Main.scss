@@ -8,21 +8,20 @@ body {
   top: 20px;
   left: 450px;
   padding: 0;
-}
 
-.main::-webkit-scrollbar-x {
-  display: none;
-}
+  &::-webkit-scrollbar-x {
+    display: none;
+  }
 
-.main-left {
-  width: 480px;
-}
-
-header {
-  display: flex;
-  margin-bottom: 20px;
-  gap: 15px;
-  overflow: scroll;
+  .main-left {
+    width: 480px;
+    header {
+      display: flex;
+      margin-bottom: 20px;
+      gap: 15px;
+      overflow: scroll;
+    }
+  }
 }
 
 // .story-green {

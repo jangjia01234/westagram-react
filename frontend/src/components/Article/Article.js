@@ -24,7 +24,8 @@ const Article = () => {
           <i class="fa-solid fa-ellipsis"></i>
         </div>
 
-        <img className="feeds" alt="feeds" src={SeaImg} />
+        <img className="feeds-content-photo" alt="feeds" src={SeaImg} />
+
         <div className="feeds-bottom">
           <div className="feeds-icon">
             <div className="feeds-icon-left">
@@ -35,7 +36,8 @@ const Article = () => {
             <i class="fa-regular fa-bookmark"></i>
           </div>
           <div className="feeds-like">
-            <strong>animal_love</strong>님
+            <strong>animal_love</strong>
+            <span>님 </span>
             <strong>
               외 <strong className="feeds-like-number">70</strong>명
             </strong>
