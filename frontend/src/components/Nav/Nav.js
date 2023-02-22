@@ -10,13 +10,13 @@ const Nav = () => {
   const [isOpen, setMenu] = useState(false); // 메뉴의 초기값을 false로 설정
 
   const toggleMenu = () => {
-    setMenu((isOpen) => !isOpen); // on,off 개념 boolean
+    setMenu(isOpen => !isOpen); // on,off 개념 boolean
   };
 
   return (
-    <div className="Nav">
+    <div className="nav">
       <div className="body">
-        <div className="nav">
+        <div className="nav-box">
           <div className={isOpen ? "hide-menu" : "show-menu"}>
             <div className="nav-wrap">
               <div className="nav-wrap-toggle">

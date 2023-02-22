@@ -11,7 +11,7 @@ import FeedProfileImg from "../../assets/Main/profile2.png";
 
 const Article = () => {
   return (
-    <div className="Article">
+    <div className="article">
       <article>
         <div className="feeds-upside">
           <div className="feeds-upside-left">

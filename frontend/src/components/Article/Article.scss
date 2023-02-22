@@ -1,3 +1,5 @@
+@import "../../styles/reset.scss";
+@import "../../styles/common.scss";
 @import "../../styles/variables.scss";
 
 header {
@@ -7,6 +9,7 @@ header {
     border: 2px solid white;
     border-radius: 50%;
   }
+
   div {
     width: 64px;
     height: 64px;
@@ -16,6 +19,7 @@ header {
     background-clip: content-box, border-box;
     border-radius: 50%;
   }
+
   &::-webkit-scrollbar {
     display: none;
   }
@@ -27,6 +31,7 @@ article {
   border-radius: 2px;
   border-bottom: 1px solid #e6e6e6;
   font-size: 15px;
+
   img {
     width: 480px;
     height: 480px;
@@ -39,9 +44,11 @@ article {
   justify-content: space-between;
   align-items: center;
   padding: 12px 0;
+
   .feeds-upside-left {
     display: flex;
     align-items: center;
+
     img {
       width: 30px;
       height: 30px;
@@ -49,11 +56,13 @@ article {
       border: 1px solid $lightGray;
       border-radius: 50%;
     }
+
     .feeds-nickname {
       margin-right: 10px;
       font-size: 16px;
       font-weight: 700;
     }
+
     .feeds-content-time {
       color: $lightGray;
       font-size: 14px;
@@ -64,17 +73,21 @@ article {
 .feeds-bottom {
   padding: 10px 10px 0 10px;
   font-size: 14px;
+
   .feeds-icon {
     display: flex;
     justify-content: space-between;
+
     .icon-chat {
       margin: 0 10px;
     }
   }
+
   .feeds-like {
     margin-top: 10px;
     font-size: 14px;
     margin-bottom: 10px;
+
     span {
       font-weight: normal;
     }
@@ -88,23 +101,27 @@ article {
     align-items: center;
     margin-top: 5px;
     width: 100%;
+
     div:first-child {
       width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
+
     .feeds-old-comment-more {
       color: gray;
       font-size: 14px;
       font-weight: 400;
       margin-top: 10px;
     }
+
     .heart-icon-mini {
       width: 10px;
       height: 10px;
     }
   }
+
   .feeds-new-comment {
     display: flex;
     flex-direction: column;
@@ -120,17 +137,20 @@ article {
   padding: 0 10px 10px 0;
   color: $lightGray;
   font-size: 14px;
+
   .feeds-comment-input {
     width: 90%;
     background-color: white;
     border: none;
     font-size: 14px;
     margin: 0;
+
     &::placeholder {
       color: gray;
       text-align: left;
     }
   }
+
   .feeds-comment-upload {
     width: 10%;
     color: $blue;
@@ -146,10 +166,12 @@ input {
   background-color: #fafafa;
   border: none;
   border-radius: 4px;
+
   &::placeholder {
     color: $lightGray;
     text-align: center;
   }
+
   &:focus {
     outline: none;
   }

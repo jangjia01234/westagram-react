@@ -1,12 +1,14 @@
+@import "../../styles/reset.scss";
+@import "../../styles/common.scss";
 @import "../../styles/variables.scss";
 
-@media (max-width: 1300px) {
-  .Aside {
+@media (max-width: 1350px) {
+  .aside {
     display: none;
   }
 }
 
-.Aside {
+.aside {
   position: fixed;
   top: 25px;
   right: 20px;
@@ -21,12 +23,14 @@
   border-radius: 2px;
   font-size: 15px;
   font-weight: 700;
+
   img {
     width: 64px;
     height: 64px;
     border-radius: 50%;
     border: 2px solid white;
   }
+
   .profile-box-nickname {
     display: flex;
     flex-direction: column;
@@ -34,6 +38,7 @@
     color: gray;
     font-size: 12px;
     font-weight: 600;
+
     a {
       font-size: 16px;
       font-weight: 700;
@@ -48,9 +53,11 @@
   font-size: 12px;
   font-weight: 600;
   overflow: scroll;
+
   &::-webkit-scrollbar {
     display: none;
   }
+
   .recommend-upside {
     position: absolute;
     display: flex;
@@ -59,8 +66,10 @@
     color: gray;
     background-color: white;
   }
+
   .recommend-bottom {
     margin-top: 30px;
+
     img {
       width: 30px;
       height: 30px;
@@ -69,27 +78,33 @@
       border: 1px solid #e6e6e6;
     }
   }
+
   .recommend-individual {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 15px 0;
+
     .recommend-individual-left {
       display: flex;
+
       img {
         margin-right: 10px;
       }
     }
+
     .recommend-individual-middle {
       div:nth-child(1) {
         font-size: 14px;
       }
+
       div:nth-child(2) {
         color: gray;
         font-size: 12px;
         font-weight: 400;
       }
     }
+
     .recommend-individual-right {
       color: $blue;
     }
@@ -101,6 +116,7 @@ footer {
   color: $lightGray;
   font-size: 12px;
   font-weight: 500;
+
   div:first-child {
     margin: 20px 0;
   }

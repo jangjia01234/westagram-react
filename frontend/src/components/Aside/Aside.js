@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { useEffect } from "react";
 
 import "../../styles/reset.scss";
 import "../../styles/common.scss";
@@ -15,7 +14,7 @@ import ProfileIllustImg from "../../assets/Main/profile4.png";
 
 const Aside = () => {
   return (
-    <div className="Aside">
+    <div className="aside">
       <div className="profile-box">
         <div className="profile-toggle-img">
           <img alt="profile" src={ProfileImg} />

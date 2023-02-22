@@ -1,15 +1,15 @@
 @import "../../styles/reset.scss";
 @import "../../styles/common.scss";
 @import "../../styles/variables.scss";
-@import "../../styles/mixin.scss";
 
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-body {
+.login {
   height: 100vh;
   margin: 0 auto;
   @include center;
   background-color: $bgColor;
+
   .layout {
     display: flex;
     flex-direction: column;
@@ -19,16 +19,19 @@ body {
     height: 450px;
     background-color: white;
   }
+
   .login-logo {
     font-family: "Lobster", cursive;
     margin: 40px 80px;
     font-size: 60px;
     color: #262626;
   }
+
   .login-input {
     display: flex;
     flex-direction: column;
   }
+
   input {
     margin: 0 auto;
     width: 250px;
@@ -40,19 +43,23 @@ body {
     margin-bottom: 10px;
     color: #a3a3a3;
   }
+
   input::placeholder {
     text-align: left;
     color: #a3a3a3;
     font-size: 14px;
   }
+
   input:focus {
     outline: 1px solid #c5e1fa;
   }
+
   .login-btn-box {
     display: flex;
     justify-content: center;
     margin-bottom: 90px;
   }
+
   button {
     width: 270px;
     background: transparent;
@@ -64,9 +71,11 @@ body {
     font-size: 16px;
     font-weight: 500;
   }
+
   a {
     text-decoration: none;
   }
+
   h6 {
     color: $darkBlue;
     font-size: 14px;

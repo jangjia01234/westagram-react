@@ -18,9 +18,9 @@ import ProfileIllustImg from "../../assets/Main/profile4.png";
 
 const Main = () => {
   return (
-    <div className="Main">
+    <div className="main">
       <Nav />
-      <div className="main">
+      <div className="main-box">
         <div className="main-left">
           <header>
             <div>

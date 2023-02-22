@@ -1,8 +1,8 @@
-body {
-  background-color: white;
-}
+@import "../../styles/reset.scss";
+@import "../../styles/common.scss";
+@import "../../styles/variables.scss";
 
-.main {
+.main-box {
   display: flex;
   position: absolute;
   top: 20px;
@@ -23,7 +23,3 @@ body {
     }
   }
 }
-
-// .story-green {
-//   border: 2px solid #62ce60;
-// }
