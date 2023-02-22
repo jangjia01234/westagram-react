@@ -1,14 +1,9 @@
 @import "../../styles/reset.scss";
 @import "../../styles/common.scss";
 @import "../../styles/variables.scss";
+@import "../../styles/mixin.scss";
 
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-
-@mixin center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 body {
   height: 100vh;
