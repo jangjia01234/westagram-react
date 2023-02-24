@@ -69,7 +69,8 @@ const Nav = () => {
             </div>
           </div>
           <div className="nav-bottom">
-            <i class="fa-solid fa-bars" onClick={() => toggleMenu()}></i>접기
+            <i class="fa-solid fa-bars" onClick={() => toggleMenu()} />
+            <span>접기</span>
           </div>
         </div>
       </div>

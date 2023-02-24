@@ -5,21 +5,21 @@ import "../../styles/common.scss";
 import "../Login/Login.scss";
 
 const Login = () => {
-  const [id, setId] = useState("");
-  const [pw, setPw] = useState("");
-  const [color, setColor] = useState("#c5e1fa");
+  const [accout, setAccount] = useState({
+    id: "",
+    password: "",
+    // id, pw 초기값 비워두기
+  });
 
-  const saveUserId = e => {
-    setId(e.target.value);
-  };
-  const saveUserPw = e => {
-    setPw(e.target.value);
+  const saveUserAccount = e => {
+    setAccount({
+      ...accout,
+      [e.target.name]: e.target.value,
+    });
+    // id 입력시 ["id"], pw 입력시 ["password"] 출력
   };
 
-  // 키 이벤트 감지 -> 버튼 활성화
-  const toggleBtnColor = () => {
-    id && pw ? setColor("#5395e9") : setColor("#c5e1fa");
-  };
+  // account state -> id, pw 입력시 {id: 'dfdf', password: 'dfdf'}
 
   return (
     <div className="login">
@@ -32,26 +32,20 @@ const Login = () => {
                 className="id-input"
                 type="text"
                 placeholder="전화번호, 사용자 이름 또는 이메일"
-                onChange={saveUserId}
-                value={id}
+                onChange={saveUserAccount}
+                name="id"
               />
               <input
                 className="pw-input"
                 type="password"
                 placeholder="비밀번호"
-                onChange={saveUserPw}
-                value={pw}
+                onChange={saveUserAccount}
+                name="password"
               />
             </div>
-            {/* <Link to="/main"> */}
+
             <div className="login-btn-box">
-              <button
-                className="login-btn"
-                onClick={toggleBtnColor} // 자동으로 바뀌게 수정 필요
-                style={{ backgroundColor: color }}
-              >
-                로그인
-              </button>
+              <button className="login-btn">로그인</button>
             </div>
           </div>
           <Link to="">
@@ -64,3 +58,9 @@ const Login = () => {
 };
 
 export default Login;
+
+// className={`login-btn ${
+//   checkId && checkPw ? "activate" : "disabled"
+// }`}
+
+// <Link to="/main">
