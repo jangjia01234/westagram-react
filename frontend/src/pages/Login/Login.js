@@ -5,47 +5,31 @@ import "../../styles/common.scss";
 import "../Login/Login.scss";
 
 const Login = () => {
-  const [accout, setAccount] = useState({
-    id: "",
-    password: "",
-    // id, pw 초기값 비워두기
-  });
-
-  const saveUserAccount = e => {
-    setAccount({
-      ...accout,
-      [e.target.name]: e.target.value,
-    });
-    // id 입력시 ["id"], pw 입력시 ["password"] 출력
-  };
-
-  // account state -> id, pw 입력시 {id: 'dfdf', password: 'dfdf'}
-
   return (
     <div className="login">
       <div className="body">
         <div className="layout">
-          <h1 className="login-logo">westagram</h1>
-          <div className="login-box">
-            <div className="login-input">
+          <h1 className="loginLogo">westagram</h1>
+          <div className="loginBox">
+            <div className="loginInput">
               <input
-                className="id-input"
+                className="idInput"
                 type="text"
                 placeholder="전화번호, 사용자 이름 또는 이메일"
-                onChange={saveUserAccount}
+                // onChange={saveUserAccount}
                 name="id"
               />
               <input
-                className="pw-input"
+                className="pwInput"
                 type="password"
                 placeholder="비밀번호"
-                onChange={saveUserAccount}
+                // onChange={saveUserAccount}
                 name="password"
               />
             </div>
 
-            <div className="login-btn-box">
-              <button className="login-btn">로그인</button>
+            <div className="loginBtnBox">
+              <button className="loginBtn">로그인</button>
             </div>
           </div>
           <Link to="">
@@ -64,3 +48,30 @@ export default Login;
 // }`}
 
 // <Link to="/main">
+
+// const [account, setAccount] = useState({
+//   id: "",
+//   password: "",
+//   // id, pw 초기값 비워두기
+// });
+
+// console.log(account.id);
+
+// const saveUserAccount = e => {
+//   setAccount({
+//     ...account,
+//     [e.target.name]: e.target.value,
+//   });
+//   // id 입력시 ["id"], pw 입력시 ["password"] 출력
+// };
+
+// console.log(account);
+// account state -> id, pw 입력시 {id: 'dfdf', password: 'dfdf'}
+
+// const checkAccount = () => {
+//   if (account.id.includes("@") && account.password.length >= 5) {
+//     console.log("success");
+//   } else {
+//     console.log("fail");
+//   }
+// };

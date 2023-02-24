@@ -20,14 +20,14 @@
     background-color: white;
   }
 
-  .login-logo {
+  .loginLogo {
     font-family: "Lobster", cursive;
     margin: 40px 80px;
     font-size: 60px;
     color: #262626;
   }
 
-  .login-input {
+  .loginInput {
     display: flex;
     flex-direction: column;
   }
@@ -54,7 +54,7 @@
     outline: 1px solid #c5e1fa;
   }
 
-  .login-btn-box {
+  .loginBtnBox {
     display: flex;
     justify-content: center;
     margin-bottom: 90px;
