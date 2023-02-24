@@ -13,59 +13,59 @@ const Article = () => {
   return (
     <div className="article">
       <article>
-        <div className="feeds-upside">
-          <div className="feeds-upside-left">
+        <div className="feedsUpside">
+          <div className="feedsUpsideLeft">
             <img alt="profile" src={FeedProfileImg} />
-            <Link className="feeds-nickname" to="">
+            <Link className="feedsNickname" to="">
               photo_stagram
             </Link>
-            <span className="feeds-content-time">· 1시간</span>
+            <span className="feedsContentTime">· 1시간</span>
           </div>
-          <i class="fa-solid fa-ellipsis"></i>
+          <i class="fa-solid fa-ellipsis" />
         </div>
 
-        <img className="feeds-content-photo" alt="feeds" src={SeaImg} />
+        <img className="feedsContentPhoto" alt="feeds" src={SeaImg} />
 
-        <div className="feeds-bottom">
-          <div className="feeds-icon">
-            <div className="feeds-icon-left">
-              <i class="fa-regular fa-heart"></i>
-              <i class="fa-regular fa-comment icon-chat"></i>
-              <i class="fa-regular fa-paper-plane"></i>
+        <div className="feedsBottom">
+          <div className="feedsIcon">
+            <div className="feedsIconLeft">
+              <i class="fa-regular fa-heart" />
+              <i class="fa-regular fa-comment icon-chat" />
+              <i class="fa-regular fa-paper-plane" />
             </div>
-            <i class="fa-regular fa-bookmark"></i>
+            <i class="fa-regular fa-bookmark" />
           </div>
-          <div className="feeds-like">
+          <div className="feedsLike">
             <strong>animal_love</strong>
             <span>님 </span>
             <strong>
-              외 <strong className="feeds-like-number">70</strong>명
+              외 <strong className="feedsLikeNumber">70</strong>명
             </strong>
             이 좋아합니다
           </div>
-          <div className="feeds-content-box">
+          <div className="feedsContentBox">
             <Link to="">
               <strong>photo_stagram </strong>
             </Link>
             동해 바다의 윤슬...
             <Link to="">더보기</Link>
           </div>
-          <div className="feeds-comment-box">
-            <div className="feeds-old-comment">
+          <div className="feedsCommentBox">
+            <div className="feedsOldComment">
               <div>
                 <Link to="">
                   <strong>fullmoon_e </strong>윤슬이 예쁘네요!
                 </Link>
 
-                <i class="fa-regular fa-heart icon-mini"></i>
+                <i class="fa-regular fa-heart icon-mini" />
               </div>
-              <div className="feeds-new-comment"></div>
+              <div className="feedsNewComment" />
             </div>
           </div>
         </div>
-        <div className="feeds-comment-input-box">
-          <input className="feeds-comment-input" placeholder="댓글 달기..." />
-          <button className="feeds-comment-upload">게시</button>
+        <div className="feedsCommentInputBox">
+          <input className="feedsCommentInput" placeholder="댓글 달기..." />
+          <button className="feedsCommentUpload">게시</button>
         </div>
       </article>
     </div>

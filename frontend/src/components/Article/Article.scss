@@ -39,13 +39,13 @@ article {
   }
 }
 
-.feeds-upside {
+.feedsUpside {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 0;
 
-  .feeds-upside-left {
+  .feedsUpsideLeft {
     display: flex;
     align-items: center;
 
@@ -57,24 +57,24 @@ article {
       border-radius: 50%;
     }
 
-    .feeds-nickname {
+    .feedsNickname {
       margin-right: 10px;
       font-size: 16px;
       font-weight: 700;
     }
 
-    .feeds-content-time {
+    .feedsContentTime {
       color: $lightGray;
       font-size: 14px;
     }
   }
 }
 
-.feeds-bottom {
+.feedsBottom {
   padding: 10px 10px 0 10px;
   font-size: 14px;
 
-  .feeds-icon {
+  .feedsIcon {
     display: flex;
     justify-content: space-between;
 
@@ -83,7 +83,7 @@ article {
     }
   }
 
-  .feeds-like {
+  .feedsLike {
     margin-top: 10px;
     font-size: 14px;
     margin-bottom: 10px;
@@ -94,8 +94,8 @@ article {
   }
 }
 
-.feeds-comment-box {
-  .feeds-old-comment {
+.feedsCommentBox {
+  .feedsOldComment {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,7 +109,7 @@ article {
       align-items: center;
     }
 
-    .feeds-old-comment-more {
+    .feedsOldCommentMore {
       color: gray;
       font-size: 14px;
       font-weight: 400;
@@ -122,14 +122,14 @@ article {
     }
   }
 
-  .feeds-new-comment {
+  .feedsNewComment {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 }
 
-.feeds-comment-input-box {
+.feedsCommentInputBox {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,7 +138,7 @@ article {
   color: $lightGray;
   font-size: 14px;
 
-  .feeds-comment-input {
+  .feedsCommentInput {
     width: 90%;
     background-color: white;
     border: none;
@@ -151,7 +151,7 @@ article {
     }
   }
 
-  .feeds-comment-upload {
+  .feedsCommentUpload {
     width: 10%;
     color: $blue;
     background-color: transparent;
