@@ -20,8 +20,8 @@ const Main = () => {
   return (
     <div className="main">
       <Nav />
-      <div className="main-box">
-        <div className="main-left">
+      <div className="mainBox">
+        <div className="mainLeft">
           <header>
             <div>
               <img alt="profile" src={ProfileImg} />

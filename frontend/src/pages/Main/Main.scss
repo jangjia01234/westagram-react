@@ -2,7 +2,7 @@
 @import "../../styles/common.scss";
 @import "../../styles/variables.scss";
 
-.main-box {
+.mainBox {
   display: flex;
   position: absolute;
   top: 20px;
@@ -13,7 +13,7 @@
     display: none;
   }
 
-  .main-left {
+  .mainLeft {
     width: 480px;
     header {
       display: flex;
