@@ -16,7 +16,7 @@
   background-color: white;
 }
 
-.profile-box {
+.profileBox {
   display: flex;
   align-items: center;
   height: 60px;
@@ -31,7 +31,7 @@
     border: 2px solid white;
   }
 
-  .profile-box-nickname {
+  .profileBoxNickname {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
@@ -46,7 +46,7 @@
   }
 }
 
-.recommend-box {
+.recommendBox {
   height: 250px;
   margin: 25px 10px 38px 10px;
   border: none;
@@ -58,7 +58,7 @@
     display: none;
   }
 
-  .recommend-upside {
+  .recommendUpside {
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -67,7 +67,7 @@
     background-color: white;
   }
 
-  .recommend-bottom {
+  .recommendBottom {
     margin-top: 30px;
 
     img {
@@ -79,13 +79,13 @@
     }
   }
 
-  .recommend-individual {
+  .recommendIndividual {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 15px 0;
 
-    .recommend-individual-left {
+    .recommendIndividualLeft {
       display: flex;
 
       img {
@@ -93,7 +93,7 @@
       }
     }
 
-    .recommend-individual-middle {
+    .recommendIndividualMiddle {
       div:nth-child(1) {
         font-size: 14px;
       }
@@ -105,7 +105,7 @@
       }
     }
 
-    .recommend-individual-right {
+    .recommendIndividualRight {
       color: $blue;
     }
   }
@@ -124,7 +124,11 @@ footer {
 
 // toggle
 
-.profile-toggle-img {
+.profileToggleBox {
+  display: none;
+}
+
+.profileToggleImg {
   width: 68px;
   height: 68px;
   border-radius: 50%;

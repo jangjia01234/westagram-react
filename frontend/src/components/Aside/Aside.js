@@ -15,102 +15,102 @@ import ProfileIllustImg from "../../assets/Main/profile4.png";
 const Aside = () => {
   return (
     <div className="aside">
-      <div className="profile-box">
-        <div className="profile-toggle-img">
+      <div className="profileBox">
+        <div className="profileToggleImg">
           <img alt="profile" src={ProfileImg} />
         </div>
-        <div className="profile-toggle-box">
-          <div className="profile-toggle-box-up">
-            <i class="fa-regular fa-user"> 프로필</i>
-            <i class="fa-regular fa-bookmark"> 북마크</i>
-            <i class="fa-regular fa-gear"> 설정</i>
+        <div className="profileToggleBox">
+          <div className="profileToggleBoxUp">
+            <i className="fa-regular fa-user"> 프로필</i>
+            <i className="fa-regular fa-bookmark"> 북마크</i>
+            <i className="fa-regular fa-gear"> 설정</i>
           </div>
-          <Link className="profile-toggle-box-down" to=""></Link>
+          <Link className="profileToggleBoxDown" to="" />
         </div>
 
-        <div className="profile-box-nickname">
+        <div className="profileBoxNickname">
           <Link to="">
             {" "}
-            <span className="account-nickname">dazezd_z</span>{" "}
+            <span className="accountNickname">dazezd_z</span>{" "}
           </Link>
           위코드 43기 교육생
         </div>
       </div>
 
-      <div className="recommend-box">
-        <div className="recommend-upside">
+      <div className="recommendBox">
+        <div className="recommendUpside">
           회원님을 위한 추천 <Link to="">모두 보기</Link>
         </div>
-        <div className="recommend-bottom">
-          <div className="recommend-individual">
-            <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={MyImg} />
-              <div className="recommend-individual-middle">
+        <div className="recommendBottom">
+          <div className="recommendIndividual">
+            <div className="recommendIndividualLeft">
+              <img alt="recommendProfile" src={MyImg} />
+              <div className="recommendIndividualMiddle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>
               </div>
             </div>
-            <Link to="" className="recommend-individual-right">
+            <Link to="" className="recommendIndividualRight">
               팔로우
             </Link>
           </div>
-          <div className="recommend-individual">
-            <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={ProfileIllustImg} />
-              <div className="recommend-individual-middle">
+          <div className="recommendIndividual">
+            <div className="recommendIndividualLeft">
+              <img alt="recommendProfile" src={ProfileIllustImg} />
+              <div className="recommendIndividualMiddle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>
               </div>
             </div>
-            <Link to="" className="recommend-individual-right">
+            <Link to="" className="recommendIndividualRight">
               팔로우
             </Link>
           </div>
-          <div className="recommend-individual">
-            <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={CatPixelImg} />
-              <div className="recommend-individual-middle">
+          <div className="recommendIndividual">
+            <div className="recommendIndividualLeft">
+              <img alt="recommendProfile" src={CatPixelImg} />
+              <div className="recommendIndividualMiddle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>
               </div>
             </div>
-            <Link to="" className="recommend-individual-right">
+            <Link to="" className="recommendIndividualRight">
               팔로우
             </Link>
           </div>
-          <div className="recommend-individual">
-            <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={FigmaImg} />
-              <div className="recommend-individual-middle">
+          <div className="recommendIndividual">
+            <div className="recommendIndividualLeft">
+              <img alt="recommendProfile" src={FigmaImg} />
+              <div className="recommendIndividualMiddle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>
               </div>
             </div>
-            <Link to="" className="recommend-individual-right">
+            <Link to="" className="recommendIndividualRight">
               팔로우
             </Link>
           </div>
-          <div className="recommend-individual">
-            <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={CatJumpImg} />
-              <div className="recommend-individual-middle">
+          <div className="recommendIndividual">
+            <div className="recommendIndividualLeft">
+              <img alt="recommendProfile" src={CatJumpImg} />
+              <div className="recommendIndividualMiddle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>
               </div>
             </div>
-            <Link to="" className="recommend-individual-right">
+            <Link to="" className="recommendIndividualRight">
               팔로우
             </Link>
           </div>
-          <div className="recommend-individual">
-            <div className="recommend-individual-left">
-              <img alt="recommend-profile" src={ProfileImg} />
-              <div className="recommend-individual-middle">
+          <div className="recommendIndividual">
+            <div className="recommendIndividualLeft">
+              <img alt="recommendProfile" src={ProfileImg} />
+              <div className="recommendIndividualMiddle">
                 <div>joaaahye</div>
                 <div>fullmoon_e님 외 1명이 팔로우합니다.</div>
               </div>
             </div>
-            <Link to="" className="recommend-individual-right">
+            <Link to="" className="recommendIndividualRight">
               팔로우
             </Link>
           </div>

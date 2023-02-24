@@ -21,7 +21,7 @@ const Article = () => {
             </Link>
             <span className="feedsContentTime">· 1시간</span>
           </div>
-          <i class="fa-solid fa-ellipsis" />
+          <i className="fa-solid fa-ellipsis" />
         </div>
 
         <img className="feedsContentPhoto" alt="feeds" src={SeaImg} />
@@ -29,11 +29,11 @@ const Article = () => {
         <div className="feedsBottom">
           <div className="feedsIcon">
             <div className="feedsIconLeft">
-              <i class="fa-regular fa-heart" />
-              <i class="fa-regular fa-comment icon-chat" />
-              <i class="fa-regular fa-paper-plane" />
+              <i className="fa-regular fa-heart" />
+              <i className="fa-regular fa-comment icon-chat" />
+              <i className="fa-regular fa-paper-plane" />
             </div>
-            <i class="fa-regular fa-bookmark" />
+            <i className="fa-regular fa-bookmark" />
           </div>
           <div className="feedsLike">
             <strong>animal_love</strong>
@@ -57,7 +57,7 @@ const Article = () => {
                   <strong>fullmoon_e </strong>윤슬이 예쁘네요!
                 </Link>
 
-                <i class="fa-regular fa-heart icon-mini" />
+                <i className="fa-regular fa-heart icon-mini" />
               </div>
               <div className="feedsNewComment" />
             </div>

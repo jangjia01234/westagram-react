@@ -25,31 +25,31 @@ const Nav = () => {
                 </Link>
                 <div className="nav-middle">
                   <Link className="nav-middle-menu home" to={""}>
-                    <i class="fa-solid fa-house"></i>
+                    <i className="fa-solid fa-house"></i>
                     <span>홈</span>
                   </Link>
                   <Link className="nav-middle-menu search" to={""}>
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i className="fa-solid fa-magnifying-glass"></i>
                     <span>검색</span>
                   </Link>
                   <Link className="nav-middle-menu explore" to={""}>
-                    <i class="fa-regular fa-compass"></i>
+                    <i className="fa-regular fa-compass"></i>
                     <span>탐색 탭</span>
                   </Link>
                   <Link className="nav-middle-menu reels" to={""}>
-                    <i class="fa-solid fa-video"></i>
+                    <i className="fa-solid fa-video"></i>
                     <span>릴스</span>
                   </Link>
                   <Link className="nav-middle-menu message" to={""}>
-                    <i class="fa-regular fa-paper-plane"></i>
+                    <i className="fa-regular fa-paper-plane"></i>
                     <span>메세지</span>
                   </Link>
                   <Link className="nav-middle-menu update" to={""}>
-                    <i class="fa-regular fa-heart"></i>
+                    <i className="fa-regular fa-heart"></i>
                     <span>알림</span>
                   </Link>
                   <Link className="nav-middle-menu update" to={""}>
-                    <i class="fa-regular fa-square-plus"></i>
+                    <i className="fa-regular fa-square-plus"></i>
                     <span>만들기</span>
                   </Link>
                   <Link className="nav-middle-menu profile" to={""}>
@@ -61,7 +61,7 @@ const Nav = () => {
                     <span>프로필</span>
                   </Link>
                   <Link className="nav-middle-menu logout" to="/">
-                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <i className="fa-solid fa-arrow-right-from-bracket"></i>
                     <span>로그아웃</span>
                   </Link>
                 </div>
@@ -69,7 +69,7 @@ const Nav = () => {
             </div>
           </div>
           <div className="nav-bottom">
-            <i class="fa-solid fa-bars" onClick={() => toggleMenu()} />
+            <i className="fa-solid fa-bars" onClick={() => toggleMenu()} />
             <span>접기</span>
           </div>
         </div>
