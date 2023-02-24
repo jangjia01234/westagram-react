@@ -1,6 +1,5 @@
 @import "../../styles/reset.scss";
 @import "../../styles/common.scss";
-@import "../../styles/variables.scss";
 
 .mainBox {
   display: flex;
@@ -15,11 +14,5 @@
 
   .mainLeft {
     width: 480px;
-    header {
-      display: flex;
-      margin-bottom: 20px;
-      gap: 15px;
-      overflow: scroll;
-    }
   }
 }

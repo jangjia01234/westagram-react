@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../../styles/reset.scss";
-import "../../styles/common.scss";
+
 import "../Login/Login.scss";
 
 const Login = () => {

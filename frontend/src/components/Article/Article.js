@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import "../../styles/reset.scss";
 import "../../styles/common.scss";
 import "../Article/Article.scss";
-import "../../pages/Test.css";
 
 import SeaImg from "../../assets/Main/sea.png";
 import FeedProfileImg from "../../assets/Main/profile2.png";

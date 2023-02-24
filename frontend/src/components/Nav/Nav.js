@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "../../styles/reset.scss";
 import "../../styles/common.scss";
 import "../Nav/Nav.scss";
-import "../../pages/Test.css";
 import ProfileImg from "../../assets/Main/profile.png";
 
 const Nav = () => {
