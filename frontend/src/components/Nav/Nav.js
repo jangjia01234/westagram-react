@@ -7,68 +7,66 @@ import "../../pages/Test.css";
 import ProfileImg from "../../assets/Main/profile.png";
 
 const Nav = () => {
-  const [isOpen, setMenu] = useState(false); // 메뉴의 초기값을 false로 설정
+  const [isOpen, setMenu] = useState(false);
 
   const toggleMenu = () => {
-    setMenu(isOpen => !isOpen); // on,off 개념 boolean
+    setMenu(isOpen => !isOpen);
   };
 
   return (
     <div className="nav">
       <div className="body">
-        <div className="nav-box">
-          <div className={isOpen ? "hide-menu" : "show-menu"}>
-            <div className="nav-wrap">
-              <div className="nav-wrap-toggle">
-                <Link to={""} className="logo-westagram">
-                  Westagram
-                </Link>
-                <div className="nav-middle">
-                  <Link className="nav-middle-menu home" to={""}>
-                    <i className="fa-solid fa-house"></i>
+        <div className="navBox">
+          <div className={isOpen ? "hideMenu" : "showMenu"}>
+            <div className="navWrap">
+              <div className="navWrapToggle">
+                <Link className="logoWestagram">Westagram</Link>
+                <div className="navMiddle">
+                  <Link className="navMiddleMenu home">
+                    <i className="fa-solid fa-house" />
                     <span>홈</span>
                   </Link>
-                  <Link className="nav-middle-menu search" to={""}>
-                    <i className="fa-solid fa-magnifying-glass"></i>
+                  <Link className="navMiddleMenu search">
+                    <i className="fa-solid fa-magnifying-glass" />
                     <span>검색</span>
                   </Link>
-                  <Link className="nav-middle-menu explore" to={""}>
-                    <i className="fa-regular fa-compass"></i>
+                  <Link className="navMiddleMenu explore">
+                    <i className="fa-regular fa-compass" />
                     <span>탐색 탭</span>
                   </Link>
-                  <Link className="nav-middle-menu reels" to={""}>
-                    <i className="fa-solid fa-video"></i>
+                  <Link className="navMiddleMenu reels">
+                    <i className="fa-solid fa-video" />
                     <span>릴스</span>
                   </Link>
-                  <Link className="nav-middle-menu message" to={""}>
-                    <i className="fa-regular fa-paper-plane"></i>
+                  <Link className="navMiddleMenu message">
+                    <i className="fa-regular fa-paper-plane" />
                     <span>메세지</span>
                   </Link>
-                  <Link className="nav-middle-menu update" to={""}>
-                    <i className="fa-regular fa-heart"></i>
+                  <Link className="navMiddleMenu update">
+                    <i className="fa-regular fa-heart" />
                     <span>알림</span>
                   </Link>
-                  <Link className="nav-middle-menu update" to={""}>
-                    <i className="fa-regular fa-square-plus"></i>
+                  <Link className="navMiddleMenu update">
+                    <i className="fa-regular fa-square-plus" />
                     <span>만들기</span>
                   </Link>
-                  <Link className="nav-middle-menu profile" to={""}>
+                  <Link className="navMiddleMenu profile">
                     <img
-                      className="nav-profile"
+                      className="navProfile"
                       src={ProfileImg}
                       alt="profile"
                     />
                     <span>프로필</span>
                   </Link>
-                  <Link className="nav-middle-menu logout" to="/">
-                    <i className="fa-solid fa-arrow-right-from-bracket"></i>
+                  <Link className="navMiddleMenu logout" to="/">
+                    <i className="fa-solid fa-arrow-right-from-bracket" />
                     <span>로그아웃</span>
                   </Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="nav-bottom">
+          <div className="navBottom">
             <i className="fa-solid fa-bars" onClick={() => toggleMenu()} />
             <span>접기</span>
           </div>

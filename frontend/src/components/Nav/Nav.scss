@@ -2,7 +2,7 @@
 @import "../../styles/common.scss";
 @import "../../styles/variables.scss";
 
-.nav-box {
+.navBox {
   position: fixed;
   top: 0;
   left: 0;
@@ -17,33 +17,33 @@
     height: 25px;
   }
 
-  .logo-westagram {
+  .logoWestagram {
     position: fixed;
     top: 40px;
     font-size: 25px;
     font-family: "Lobster", cursive;
   }
 
-  .nav-middle {
+  .navMiddle {
     margin-top: 80px;
 
     i {
       font-size: 25px;
     }
 
-    .nav-middle-menu {
+    .navMiddleMenu {
       display: flex;
       align-items: center;
       margin: 30px 0;
       gap: 15px;
     }
 
-    .nav-profile {
+    .navProfile {
       border-radius: 50%;
     }
   }
 
-  .nav-bottom {
+  .navBottom {
     position: fixed;
     bottom: 40px;
     display: flex;
@@ -53,10 +53,10 @@
   }
 }
 
-.show-menu {
-  display: block;
+.hideMenu {
+  display: none;
 }
 
-.hide-menu {
-  display: none;
+.showMenu {
+  display: block;
 }
