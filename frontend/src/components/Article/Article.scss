@@ -49,14 +49,22 @@ article {
 
 .feedsBottom {
   padding: 10px 10px 0 10px;
-  font-size: 14px;
+  // font-size: 22px;
 
   .feedsIcon {
     display: flex;
     justify-content: space-between;
 
-    .icon-chat {
-      margin: 0 10px;
+    .feedsIconLeft {
+      font-size: 22px;
+
+      .icon-chat {
+        margin: 0 14px;
+      }
+    }
+
+    .fa-bookmark {
+      font-size: 22px;
     }
   }
 
@@ -71,7 +79,12 @@ article {
   }
 }
 
+.feedsContentBox {
+  font-size: 14px;
+}
+
 .feedsCommentBox {
+  font-size: 14px;
   .feedsOldComment {
     display: flex;
     justify-content: space-between;
