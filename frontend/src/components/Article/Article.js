@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "../../styles/reset.scss";
-import "../../styles/common.scss";
 import "../Article/Article.scss";
 
 import SeaImg from "../../assets/Main/sea.png";

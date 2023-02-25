@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../../styles/reset.scss";
-import "../../styles/common.scss";
+
 import "../Nav/Nav.scss";
 import ProfileImg from "../../assets/Main/profile.png";
 

@@ -1,7 +1,42 @@
 @import "../../styles/reset.scss";
-@import "../../styles/common.scss";
-@import "../../styles/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
+// Common
+body {
+  background-color: white;
+}
+
+strong {
+  font-weight: 700;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.body {
+  display: flex;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+i,
+img,
+button {
+  cursor: pointer;
+}
+
+.fa-regular.icon-mini {
+  font-size: 10px;
+  color: gray;
+}
+
+// Aside
 @media (max-width: 1350px) {
   .aside {
     display: none;
@@ -107,14 +142,14 @@
     }
 
     .recommendIndividualRight {
-      color: $blue;
+      color: #5395e9;
     }
   }
 }
 
 footer {
   padding-left: 10px;
-  color: $lightGray;
+  color: #bababa;
 
   p {
     margin: 20px 0;
@@ -133,5 +168,5 @@ footer {
   width: 68px;
   height: 68px;
   border-radius: 50%;
-  border: 1px solid $lightGray;
+  border: 1px solid #bababa;
 }
