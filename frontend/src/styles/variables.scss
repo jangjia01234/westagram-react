@@ -8,9 +8,3 @@ $bgColor: #fafafa;
 
 $gradient: linear-gradient(#fff, #fff),
   linear-gradient(to right, red 0%, orange 100%);
-
-@mixin center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

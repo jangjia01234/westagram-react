@@ -7,7 +7,9 @@
 .login {
   height: 100vh;
   margin: 0 auto;
-  @include center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: $bgColor;
 
   .layout {
