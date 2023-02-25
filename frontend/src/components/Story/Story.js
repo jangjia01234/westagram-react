@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./Story.scss";
 
 import ProfileImg from "../../assets/Main/profile.png";
@@ -13,17 +12,39 @@ const Story = () => {
   return (
     <div className="story">
       <header>
-        <img alt="profile" src={ProfileImg} />
-        <img alt="profile" src={CatJumpImg} />
-        <img alt="profile" src={CatPixelImg} />
-        <img alt="profile" src={MyImg} />
-        <img alt="profile" src={FigmaImg} />
-        <img alt="profile" src={ProfileIllustImg} />
-        <img alt="profile" src={CatJumpImg} />
-        <img alt="profile" src={CatPixelImg} />
-        <img alt="profile" src={MyImg} />
-        <img alt="profile" src={FigmaImg} />
-        <img alt="profile" src={ProfileIllustImg} />
+        <div>
+          <img alt="profile" src={ProfileImg} />
+        </div>
+        <div>
+          <img alt="profile" src={CatJumpImg} />
+        </div>
+        <div>
+          <img alt="profile" src={CatPixelImg} />
+        </div>
+        <div>
+          <img alt="profile" src={MyImg} />
+        </div>
+        <div>
+          <img alt="profile" src={FigmaImg} />
+        </div>
+        <div>
+          <img alt="profile" src={ProfileIllustImg} />
+        </div>
+        <div>
+          <img alt="profile" src={CatJumpImg} />
+        </div>
+        <div>
+          <img alt="profile" src={CatPixelImg} />
+        </div>
+        <div>
+          <img alt="profile" src={MyImg} />
+        </div>
+        <div>
+          <img alt="profile" src={FigmaImg} />
+        </div>
+        <div>
+          <img alt="profile" src={ProfileIllustImg} />
+        </div>
       </header>
     </div>
   );
