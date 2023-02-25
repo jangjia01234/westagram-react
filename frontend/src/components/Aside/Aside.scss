@@ -114,11 +114,11 @@
 footer {
   padding-left: 10px;
   color: $lightGray;
-  font-size: 12px;
-  font-weight: 500;
 
-  div:first-child {
+  p {
     margin: 20px 0;
+    font-size: 12px;
+    font-weight: 500;
   }
 }
 
